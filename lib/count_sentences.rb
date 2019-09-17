@@ -19,3 +19,4 @@ self.each.with_index[1] do |sentence, value|
   value
   end
 end
+end
