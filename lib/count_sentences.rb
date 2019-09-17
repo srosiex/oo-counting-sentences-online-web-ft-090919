@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
-self.each.with_index[1]
+self.each.with_index[1] do |sentence, value|
+  value
   end
 end
